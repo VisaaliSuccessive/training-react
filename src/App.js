@@ -5,6 +5,7 @@ import './App'
 import Lifecycle from './Lifecycles';
 import SetState from './SetState';
 import Form from './Form'
+import ValidateForm from './ValidateForm';
 const App = () => {
   return (
     <div >
@@ -15,7 +16,10 @@ const App = () => {
       <Lifecycle/>
       <Test name="Dentsu">I am lorem ipsum </Test>
       <SetState/>
-      <Form/>
+      <Form/><br/>
+      <p>Validating Forms</p>
+      <br/>
+      <ValidateForm/>
     </div>
   );
 }
